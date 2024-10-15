@@ -1,6 +1,7 @@
 cmd-rpi: 
 
-sudo ./led-image-viewer dog-koons110001\ copie.png --led-no-hardware-pulse --led-rows=64 --led-cols=64  --led-multiplexing=1 --led-brightness=75 --led-pixel-mapper="Rotate:90"
+sudo ./led-image-viewer --led-chain=2 --led-rows=32 --led-cols=64 --led-pwm-bits=11 "dog-koons110001 copie.png" --led-no-hardware-pulse --led-slowdown-gpio=3 --led-pixel-mapper="U-mapper;Rotate90"
+
 
 
 sudo ./video-viewer --led-rows=64 --led-cols=32 --led-chain=1  -T2 koons.mp4 --led-no-hardware-pulse
