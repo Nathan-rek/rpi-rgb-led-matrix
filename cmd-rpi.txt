@@ -1,6 +1,6 @@
 cmd-rpi: 
 
-sudo ./led-image-viewer --led-chain=2 --led-rows=32 --led-cols=64 --led-pwm-bits=11 "dog-koons110001 copie.png" --led-no-hardware-pulse --led-slowdown-gpio=3 --led-pixel-mapper="U-mapper;Rotate90"
+sudo ./led-image-viewer --led-chain=2 --led-rows=32 --led-cols=64 --led-pwm-bits=11  --led-no-hardware-pulse --led-slowdown-gpio=2 --led-pixel-mapper="U-mapper" "dog-koons110001 copie.png"
 
 
 
